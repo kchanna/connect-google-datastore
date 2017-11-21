@@ -1,0 +1,27 @@
+{
+  "name": "connect-google-datastore",
+  "description": "express-session store interface to keep data in Google Cloud Data Store",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "author": "Keshav Channa",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kchanna/connect-google-datastore.git"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "scripts": {
+    
+  },
+  "dependencies": {
+    "express": "4.15.4",
+    "express-session": "1.15.6",
+    "@google-cloud/datastore": "1.1.0",
+    "googleapis": "22.2.0"
+  },
+  "devDependencies": {
+    
+  }
+}
